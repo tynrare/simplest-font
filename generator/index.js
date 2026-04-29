@@ -1,11 +1,11 @@
-const glyph_size = 42;
-const sheet_w = 800;
+const glyph_size = 100;
+const sheet_w = 2048;
 const pad = 4;
 const fontpath = "Rubik-ExtraBold.ttf"
 const debug = false;
 
 function update() {
-	let glyphs = "∎";
+	let glyphs = "∎✓❌█zя§★";
 	for (let i = 32; i < 122; i++) {
 		glyphs += String.fromCharCode(i);
 	}
